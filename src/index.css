@@ -1,0 +1,50 @@
+:root {
+  --dark-color: #171717;
+  --secondary-color: #3c948b;
+  --offwhite-color: #f4f4f4;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+img {
+  width: 210px;
+  height: 295px;
+  object-fit: cover;
+}
+
+/* Utilts */
+.container {
+  max-width: 1170px;
+  margin: auto;
+}
+
+.btn {
+  padding: 10px 17px;
+  border: 1px solid var(--dark-color);
+  background: var(--dark-color);
+  color: var(--offwhite-color);
+  margin: 1rem 0;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.btn:hover {
+  color: var(--secondary-color);
+}
+
+.btn-block {
+  display: block;
+  width: 100%;
+}
+.nav__brand a:hover {
+  color: var(--secondary-color);
+  text-decoration: none;
+}
